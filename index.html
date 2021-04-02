@@ -49,21 +49,21 @@
     <div class="slider">
       <ul class="slides">
         <li>
-          <img src="https://drive.google.com/uc?export=view&id=1PaMBsVsiDGN4pNYswD_8ilsz8NjHmukS" alt="image slides RUMAH ABIBA" width="100%" height="100%">
+          <img src="https://drive.google.com/uc?export=view&id=1PaMBsVsiDGN4pNYswD_8ilsz8NjHmukS" alt="image slides RUMAH ABIBA" width="100%">
           <div class="caption left-align">
             <h3>BERANI MEMULAI DAN MENGGAPAI MIMPI</h3>
             <h5 class="light grey-text text-lighten-3"><b>Bersama kami mewujudkan mimpi, meraih cita, dan menjadi kebanggaan keluarga</b></h5>
           </div>
         </li>
         <li>
-          <img src="https://drive.google.com/uc?export=view&id=1pNVuK2hKaTyVyNxMJTfFVNx1X7IwcmZf" alt="image slides RUMAH ABIBA" width="100%" height="100%">
+          <img src="https://drive.google.com/uc?export=view&id=1pNVuK2hKaTyVyNxMJTfFVNx1X7IwcmZf" alt="image slides RUMAH ABIBA" width="100%">
           <div class="caption right-align">
             <h3>MEMBACA MEMBUKA JENDELA DUNIA</h3>
             <h5 class="light grey-text text-lighten-3"><b>Tuntun buah hati anda mengenal dan melihat luasnya semesta</b></h5>
           </div>
         </li>
         <li>
-          <img src="https://drive.google.com/uc?export=view&id=1_yJXvgLipJoK-BCaJAmA7zZ-0h0MfaWU" alt="image slides RUMAH ABIBA" width="100%" height="100%">
+          <img src="https://drive.google.com/uc?export=view&id=1_yJXvgLipJoK-BCaJAmA7zZ-0h0MfaWU" alt="image slides RUMAH ABIBA" width="100%">
           <div class="caption center-align">
             <h1>RUMAH ABIBA</h1>
             <h3 class="light grey-text text-lighten-3"><b>"Aku Bisa Baca"</b></h3>
@@ -245,7 +245,7 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script>
         const sideNav = document.querySelectorAll('.sidenav');
-        M.Sidenav.init(sideNav);
+        M.Sidenav.init(sideNav, {passive: true});
 
         const slider = document.querySelectorAll('.slider');
         M.Slider.init(slider, {
@@ -253,18 +253,18 @@
           height: 550,
           transition: 600,
           interval: 3500
-        });
+        }, {passive: true});
 
         const parallax = document.querySelectorAll('.parallax');
-        M.Parallax.init(parallax);
+        M.Parallax.init(parallax, {passive: true});
 
         const materialbox = document.querySelectorAll('.materialboxed');
-        M.Materialbox.init(materialbox);
+        M.Materialbox.init(materialbox, {passive: true});
 
         const scroll = document.querySelectorAll('.scrollspy');
         M.ScrollSpy.init(scroll, {
           scrollOffset: 50
-        });
+        }, {passive: true});
     </script>
   </body>
 </html>
