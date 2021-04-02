@@ -1,0 +1,41 @@
+.slider h1,
+.slider h2,
+.slider h3,
+.slider h5,
+.dukung h3 {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.parallax-container {
+    height: 20%;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.galeri img {
+    padding: 5px;
+}
+
+.dukung img {
+    height: 60px;
+    filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.8));
+    padding: .5rem 0;
+}
+
+.dukung img.mtz {
+    width: 4rem;
+    height: 30%;    
+    filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.8));
+    padding: .5rem 0;    
+}
+
+.layanan, .hubungi, .tentang, .galeri, footer {
+    padding: 5rem 0;
+}
+
+nav .brand-logo i, nav .brand-logo {
+    margin-right: 7px !important;
+}
